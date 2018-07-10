@@ -10,9 +10,9 @@ public class InteractRunner {
       Calculator calc = new Calculator();
       String exit = "no";
       while (!exit.equals("yes")) {
-        System.out.println("Enter first arg : ");
+        System.out.println("Enter first argument : ");
         String first = reader.next();
-        System.out.println("Enter second arg : ");
+        System.out.println("Enter second arg argument: ");
         String second = reader.next();
         calc.add(Integer.valueOf(first), Integer.valueOf(second));
        	System.out.println("Result : " + calc.getResult());
