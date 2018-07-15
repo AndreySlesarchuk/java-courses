@@ -9,7 +9,7 @@ public class CatFight {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Kesha", 17, 4, 7);
         Cat cat2 = new Cat("Timka", 20, 5, 6);
-        Cat cat3 = new Cat("Una", 1, 1, 1);
+        Cat cat3 = new Cat("Una", 10, 7, 7);
 
         if (cat1.fight(cat2)) System.out.println(cat1.name+ " сильнее " + cat2.name);
         else System.out.println(cat2.name+ " сильнее " + cat1.name);
