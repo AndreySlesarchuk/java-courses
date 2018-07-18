@@ -1,6 +1,8 @@
+package ru.lessons.lession_3;
+
 /**
-  Класс для вычисления суммы двух чисел. Числа берутся извходяшего массива.
-*/
+ * Класс для вычисления суммы двух чисел. Числа беруться из входщего массива.
+ */
 public class Calculate {
 	public static void main(String[] arg) {
 		System.out.println("Calculate...");
