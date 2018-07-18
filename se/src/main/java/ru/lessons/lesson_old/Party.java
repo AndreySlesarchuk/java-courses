@@ -1,4 +1,4 @@
-
+package ru.lessons.lesson_old;
 //c:\Program Files\Java\jdk1.8.0_102\bin\
 
 import java.awt.*;
@@ -8,7 +8,7 @@ public class Party {
 	public static void main(String[] args){
 		buildInvite();
 	}
-	public void buildInvite() {
+	public static void buildInvite() {
 		Frame f = new Frame();
 		Label l = new Label("Вечеринка у Андрея");
 		Button b = new Button("Ваша ставка");
