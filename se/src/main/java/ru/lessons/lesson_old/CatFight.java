@@ -1,3 +1,4 @@
+package ru.lessons.lesson_old;
 /* Провести три боя  попарно между котами
 Создать три кота используя класс Cat.
 Провести три боя попарно между котами.
@@ -7,9 +8,9 @@
 
 public class CatFight {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Kesha", 17, 4, 7);
-        Cat cat2 = new Cat("Timka", 20, 5, 6);
-        Cat cat3 = new Cat("Una", 10, 7, 7);
+        Cat cat1 = new Cat("Kesha", 19, 4, 7);
+        Cat cat2 = new Cat("Timka", 23, 5, 6);
+        Cat cat3 = new Cat("Una", 10, 6, 5);
 
         if (cat1.fight(cat2)) System.out.println(cat1.name+ " сильнее " + cat2.name);
         else System.out.println(cat2.name+ " сильнее " + cat1.name);

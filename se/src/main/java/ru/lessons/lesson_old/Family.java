@@ -1,9 +1,9 @@
 //package com.javarush.test.level08.lesson11.home06;
 
-/* Вся семья в сборе
-1. Создай класс Human с полями имя (String), пол (boolean), возраст (int), дети (ArrayList<Human>).
-2. Создай объекты и заполни их так, чтобы получилось: два дедушки, две бабушки, отец, мать, трое детей.
-3. Вывести все объекты Human на экран.
+/* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
+1. пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Human пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ (String), пїЅпїЅпїЅ (boolean), пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (int), пїЅпїЅпїЅпїЅ (ArrayList<Human>).
+2. пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Human пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
 */
 
 import java.util.ArrayList;
@@ -13,16 +13,16 @@ public class Family
     public static void main(String[] args)
     {
         Human ch1 = new Human("Art", true, 0, new ArrayList<Human>());
-        Human ch2 = new Human("Masha", false, 14, new ArrayList<Human>());
-        Human ch3 = new Human("Mike", true, 8, new ArrayList<Human>());
+        Human ch2 = new Human("Masha", false, 15, new ArrayList<Human>());
+        Human ch3 = new Human("Mike", true, 9, new ArrayList<Human>());
 
         ArrayList<Human> ATmm = new ArrayList<Human>();
         ATmm.add(ch1);
         ATmm.add(ch2);
         ATmm.add(ch3);
 
-        Human father = new Human("Andrey", true, 44, ATmm);
-        Human mother = new Human("Tana", false, 44, ATmm);
+        Human father = new Human("Andrey", true, 45, ATmm);
+        Human mother = new Human("Tana", false, 45, ATmm);
 
         ArrayList<Human> Sles = new ArrayList<Human>();
         Sles.add(father);
@@ -81,14 +81,14 @@ public class Family
         public String toString()
         {
             String text = "";
-            text += "Имя: " + this.name;
-            text += ", пол: " + (this.sex ? "мужской" : "женский");
-            text += ", возраст: " + this.age;
+            text += "пїЅпїЅпїЅ: " + this.name;
+            text += ", пїЅпїЅпїЅ: " + (this.sex ? "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" : "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+            text += ", пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " + this.age;
 
             int childCount = this.children.size();
             if (childCount > 0)
             {
-                text += ", дети: "+this.children.get(0).name;
+                text += ", пїЅпїЅпїЅпїЅ: "+this.children.get(0).name;
 
                 for (int i = 1; i < childCount; i++)
                 {
