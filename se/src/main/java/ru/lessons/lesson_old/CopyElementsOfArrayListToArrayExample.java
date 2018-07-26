@@ -27,8 +27,7 @@ public class CopyElementsOfArrayListToArrayExample {
     Object[] objArray = arrayList.toArray();
    
     //display contents of Object array
-    System.out.println("ArrayList elements are copied into an Array. 
-                                                   Now Array Contains..");
+    System.out.println("ArrayList elements are copied into an Array. Now Array Contains..");
     for(int index=0; index < objArray.length ; index++)
       System.out.println(objArray[index]);
   }

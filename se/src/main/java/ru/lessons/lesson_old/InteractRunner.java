@@ -1,5 +1,7 @@
 package ru.lessons.lesson_old;
 
+import ru.lessons.lesson_4.Calculator;
+
 import java.util.Scanner;
 /**
   Класс для запуска калькулятора. Поддерживает ввод пользователя.

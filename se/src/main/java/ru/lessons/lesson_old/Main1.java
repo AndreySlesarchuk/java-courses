@@ -1,4 +1,4 @@
-package by.atmm.sample;
+package ru.lessons.lesson_old;
 
 /*
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-/*
+package ru.lessons.lesson_old;/*
   Iterate through elements Java ArrayList using ListIterator Example
   This Java Example shows how to iterate through the elements of java
   ArrayList object in forward and backward direction using ListIterator.
@@ -31,8 +31,7 @@ public class IterateThroughArrayListUsingListIteratorExample {
       Use hasNext() and next() methods of ListIterator to iterate through
       the elements in forward direction.
     */
-    System.out.println("Iterating through ArrayList elements in forward
-                                                          direction...");
+    System.out.println("Iterating through ArrayList elements in forward direction...");
     while(itr.hasNext())
       System.out.println(itr.next());
  
@@ -40,8 +39,7 @@ public class IterateThroughArrayListUsingListIteratorExample {
       Use hasPrevious() and previous() methods of ListIterator to iterate through
       the elements in backward direction.
     */
-    System.out.println("Iterating through ArrayList elements in backward
-                                                           direction...");
+    System.out.println("Iterating through ArrayList elements in backward direction...");
     while(itr.hasPrevious())
       System.out.println(itr.previous());
    

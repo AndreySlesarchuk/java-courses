@@ -1,4 +1,4 @@
-/*
+package ru.lessons.lesson_old;/*
   Add an element to specified index of Java ArrayList Example
   This Java Example shows how to add an element at specified index of java
   ArrayList object using add method.
