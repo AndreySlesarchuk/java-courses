@@ -1,4 +1,4 @@
-/*
+package ru.lessons.lesson_old;/*
   Check if a particular value exists in Java LinkedHashMap example
   This Java Example shows how to check if LinkedHashMap object contains a particular
   value using containsValue method of LinkedHashMap class.
